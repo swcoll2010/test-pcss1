@@ -1,0 +1,20 @@
+{
+  "name": "postcss-tutorial",
+  "version": "1.0.0",
+  "main": "src/js/app.js",
+  "scripts": {
+    "build": "postcss ./src/css/styles.css --dir css --map",
+    "watch": "postcss ./src/css/styles.css --dir css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Kevin Powell's Postcss tutorial",
+  "devDependencies": {
+    "cssnano": "^5.1.15",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0",
+    "postcss-preset-env": "^8.0.1"
+  }
+}

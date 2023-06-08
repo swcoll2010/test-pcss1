@@ -1,0 +1,42 @@
+@import 'reset.css';
+@import 'base.css';
+
+body {
+  font-family: var(--ff-primary);
+  background: var(--clr-primary-bg);
+  color: var(--primary-clr);
+}
+
+h1 {
+  color: goldenrod;
+}
+
+article {
+  &.title {
+    font-size: 3rem;
+  }
+}
+
+.card {
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+
+  > div {
+    flex: 1 0;
+  }
+
+  & .card__title {
+    margin: 1rem;
+  }
+
+  & .card__button {
+    background: green;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: yellow;
+     }
+  }
+}
